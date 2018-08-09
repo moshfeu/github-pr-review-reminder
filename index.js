@@ -1,1 +1,12 @@
-console.log('---pr created!!---');
+const http = require('http');
+
+const port = process.env.PORT || 3000;
+
+const server = http.createServer((req, res) => {
+  console.log('---pr created!!---');
+});
+
+server.listen(port, () => {
+  env.config.PORT
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
