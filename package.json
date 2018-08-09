@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/moshfeu/github-pr-review-reminder/issues"
   },
-  "homepage": "https://github.com/moshfeu/github-pr-review-reminder#readme"
+  "homepage": "https://github.com/moshfeu/github-pr-review-reminder#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
