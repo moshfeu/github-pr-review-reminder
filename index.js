@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get('/pr', (req, res) => {
+app.post('/pr', (req, res) => {
   console.log('actual pr requested ----');
   console.log(req.body);
   res.send('Hello World!');
